@@ -1,4 +1,5 @@
 import { MessageCircle, Twitter, Linkedin, Instagram, Mail } from "lucide-react";
+import { Link } from "react-router";
 
 export function Footer() {
   return (
@@ -53,7 +54,7 @@ export function Footer() {
             <ul className="space-y-3">
               <li><a href="#" className="hover:text-[#10a37f] transition-colors">Help Center</a></li>
               <li><a href="#" className="hover:text-[#10a37f] transition-colors">Contact</a></li>
-              <li><a href="#" className="hover:text-[#10a37f] transition-colors">Privacy Policy</a></li>
+              <li><Link to="/privacy" className="hover:text-[#10a37f] transition-colors">Privacy Policy</Link></li>
               <li><a href="#" className="hover:text-[#10a37f] transition-colors">Terms of Service</a></li>
             </ul>
           </div>

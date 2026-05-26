@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { Menu, X, ArrowRight } from "lucide-react";
+import { Link } from "react-router";
 
 const NAV_LINKS = [
   { label: "Use Case", href: "#use-case" },
@@ -39,7 +40,7 @@ export function Navbar() {
       >
         <nav className="max-w-7xl mx-auto px-6 lg:px-8 h-16 flex items-center justify-between">
           {/* Logo */}
-          <a href="#" className="flex items-center gap-2.5 shrink-0 group">
+          <Link to="/" className="flex items-center gap-2.5 shrink-0 group">
             <LogoIcon />
             <span
               className="text-gray-900 tracking-tight transition-colors group-hover:text-[#10a37f]"
@@ -47,7 +48,7 @@ export function Navbar() {
             >
               Remivo
             </span>
-          </a>
+          </Link>
 
           {/* Desktop nav links */}
           <div className="hidden md:flex items-center gap-1">
