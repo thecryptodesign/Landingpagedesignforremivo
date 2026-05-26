@@ -6,16 +6,20 @@ import { WhyRemivo } from "./components/WhyRemivo";
 import { Testimonials } from "./components/Testimonials";
 import { FinalCTA } from "./components/FinalCTA";
 import { Footer } from "./components/Footer";
+import { Navbar } from "./components/Navbar";
+import { FAQ } from "./components/FAQ";
 
 export default function App() {
   return (
     <div className="min-h-screen bg-white">
+      <Navbar />
       <Hero />
       <Features />
       <HowItWorks />
       <FeatureShowcase />
       <WhyRemivo />
       <Testimonials />
+      <FAQ />
       <FinalCTA />
       <Footer />
     </div>

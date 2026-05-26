@@ -49,9 +49,7 @@ export function HowItWorks() {
                     <step.icon className="w-8 h-8 text-white" />
                   </div>
                 </div>
-                <div className="absolute -top-4 left-1/2 -translate-x-1/2 w-12 h-12 rounded-full bg-[#10a37f] text-white flex items-center justify-center font-bold text-lg">
-                  {index + 1}
-                </div>
+
                 <h3 className="text-2xl font-semibold text-gray-900 mb-3">
                   {step.title}
                 </h3>

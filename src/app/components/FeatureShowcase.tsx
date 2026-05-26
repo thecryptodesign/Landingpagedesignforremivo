@@ -3,7 +3,7 @@ import { Calendar, Repeat, CheckCircle2, Clock, Flame } from "lucide-react";
 
 export function FeatureShowcase() {
   return (
-    <section className="py-24 bg-white">
+    <section id="features" className="py-24 bg-white">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
